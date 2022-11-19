@@ -1,14 +1,1 @@
-# A reusable workflow for Dart packages
-uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/dart_package.yml@v1
 
-# A reusable workflow for Flutter packages
-uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/flutter_package.yml@v1
-
-# A reusable workflow for ensuring commits are semantic
-uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/semantic_pull_request.yml@v1
-
-# A reusable workflow for verifying package scores on pub.dev
-uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/pana.yml@v1
-
-# A reusable workflow for running a spell check
-uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/spell_check.yml@v1
