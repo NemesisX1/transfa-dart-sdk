@@ -1,8 +1,15 @@
 ///
 enum PaymentStatus {
+  ///
   completed,
+
+  ///
   processing,
+
+  ///
   pending,
+
+  ///
   failed,
 }
 
