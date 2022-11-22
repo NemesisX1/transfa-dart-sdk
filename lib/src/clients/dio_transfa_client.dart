@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:transfa_dart/enums/enums.dart';
 import 'package:transfa_dart/src/core/base_model.dart';
@@ -16,7 +18,7 @@ class DioTransfaClient extends TransfaApiClient {
     BaseOptions(
       baseUrl: baseUrl,
       headers: {
-        'Authorization': apiKey,
+        HttpHeaders.authorizationHeader: apiKey,
       },
     ),
   );
