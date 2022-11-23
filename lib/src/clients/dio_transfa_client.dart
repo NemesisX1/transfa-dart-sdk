@@ -1,8 +1,5 @@
 import 'dart:io';
-
 import 'package:dio/dio.dart';
-import 'package:transfa_dart/enums/enums.dart';
-import 'package:transfa_dart/src/core/base_model.dart';
 import 'package:transfa_dart/src/core/transfa_api_client.dart';
 
 ///
@@ -44,6 +41,7 @@ class DioTransfaClient extends TransfaApiClient {
 
     try {
       await _dio
+          // ignore: inference_failure_on_function_invocation
           .post(
         path,
         data: data,
