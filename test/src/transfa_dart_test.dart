@@ -10,9 +10,9 @@ import 'package:test/test.dart';
 import 'package:transfa_dart/transfa_dart.dart';
 
 void main() {
-  // group('TransfaDart', () {
-  //   test('can be instantiated', () {
-  //     expect(TransfaDart(), isNotNull);
-  //   });
-  // });
+  group('TransfaDart', () {
+    test('can be instantiated', () {
+      expect(TransfaDart(apiKey: ''), isNotNull);
+    });
+  });
 }

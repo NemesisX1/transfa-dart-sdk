@@ -9,3 +9,4 @@
 library transfa_dart;
 
 export 'src/transfa_dart.dart';
+export 'src/api/v1/status.dart';
